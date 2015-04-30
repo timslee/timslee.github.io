@@ -1,7 +1,7 @@
 body {
 	background-color: CadetBlue;
-}
+	}
 
-h1, p {
+h1, p, a {
 	color: white;
-}
+	}
