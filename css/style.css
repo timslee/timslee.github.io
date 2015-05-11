@@ -1,7 +1,8 @@
 body {
 	background-color: CadetBlue;
+	color:#ffffff;
 }
 
-h1, p, a {
+a {
 	color: white;
 }
