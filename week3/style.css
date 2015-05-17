@@ -23,6 +23,11 @@ hr {
 	width: 460px;
 }
 
+ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
 img {
 	padding-top: 20px;
 	border-radius: 500px;
