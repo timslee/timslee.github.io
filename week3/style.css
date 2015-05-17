@@ -16,11 +16,11 @@ div {
 
 h1 {
 	padding-top: 20px;
-	font-weight: bold;
+	text-transform: uppercase;
 }
 
 hr {
-	width: 460px;
+	width: 500px;
 }
 
 ul {
@@ -34,7 +34,6 @@ img {
 }
 
 #slogan {
-	text-transform: uppercase;
 	font-style: italic;
 }
 
