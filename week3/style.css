@@ -17,10 +17,20 @@ section {
 section#splash {
 	background-color: rgba(0, 0, 0, 0.4);
 	min-height:100vh;
+	text-align: center;
+}
+section#about {
+	color: #000000;
 }
 footer {
+	color: #000000;
 	font-size: .90em;
 	padding-bottom: 1em;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
 }
 
 h1 {
@@ -51,7 +61,4 @@ p {
 p#slogan {
 	font-style: italic;
 }
-a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
+
