@@ -1,8 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
 body {
 	background: url("images/comics.jpg");
 	background-size: cover;
 	color: #FFFFFF;
 	text-align: center;
+	font-family: Georgia, serif;
 	
 }
 
@@ -15,13 +18,13 @@ div {
 }
 
 h1 {
-	font-family: Georgia, serif;
+	font-family: Oswald, sans-serif; 
 	padding-top: 20px;
 	text-transform: uppercase;
 }
 
 hr {
-	width: 500px;
+	width: 10em;
 }
 
 ul {
@@ -35,7 +38,6 @@ img {
 }
 
 p {
-	font-family: "Times New Roman", serif;
 	line-height: 1.5em;
 }
 
