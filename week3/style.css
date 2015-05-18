@@ -1,26 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:700);
 @import url(http://fonts.googleapis.com/css?family=Lato);
-
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	background: url("images/comics.jpg");
+	background-repeat:no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
+	font-size:16px;
 	text-align: center;
 	font-family: Lato, sans-serif;
 	
 }
 
 div {
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-bottom: 10px;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+footer {
+	font-size: .90em;
+	padding-bottom: 1em;
 }
 
 h1 {
 	font-family: Oswald, sans-serif; 
-	padding-top: 20px;
+	padding-top: 1em;
 	text-transform: uppercase;
 }
 
@@ -30,12 +32,12 @@ hr {
 
 ul {
 	list-style-type: none;
-	padding: 10px;
+	padding: 1em;
 }
 
 img {
-	padding-top: 20px;
-	border-radius: 500px;
+	padding-top: 1em;
+	border-radius: 50%;
 }
 
 p {
@@ -45,12 +47,6 @@ p {
 p#slogan {
 	font-style: italic;
 }
-
-footer {
-	font-size: .90em;
-	padding-bottom: 20px;
-}
-
 a {
 	color: #FFFFFF;
 	text-decoration: none;
