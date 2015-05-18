@@ -29,7 +29,6 @@ hr {
 
 ul {
 	list-style-type: none;
-	padding: 10px;
 }
 
 img {
@@ -41,7 +40,7 @@ p {
 	line-height: 1.5em;
 }
 
-#slogan {
+p#slogan {
 	font-style: italic;
 }
 
