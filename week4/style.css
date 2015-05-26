@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	background-color: #fef8f1;	
+	font-size:16px;
+	font-family: 'Lora', serif;
+}
+
+header {
+	background: url("images/comics.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align: center;
+	min-height:100vh;
+}
+
+section#splash  {
+	text-align:center;
+	background-color:rgba(0,0,0,0.4);
+	min-height: 100vh;
+	color: #fef8f1;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	padding-top: 1em;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+h2	{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+hr {
+	margin:0 auto 0 auto;
+	width:10em;
+}
+
+img {
+	padding-top: 1em;
+	border-radius: 50%;
+}
+
+p#slogan {
+	font-style: italic;
+}
+
+div {
+	margin: 1em;
+	padding: 1em;
+	background:#f0f1af;
+	display:inline-block; vertical-align: top;
+	width:19em;
+	height:10em;
+
+}
+
+
+p {
+	line-height: 1.5em;
+}
+
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+footer {
+	padding: 1em;
+}
