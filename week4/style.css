@@ -50,21 +50,26 @@ p#slogan {
 	font-style: italic;
 }
 
-div {
+div#about, footer {
+	display:block;
+	margin:1em;
+	padding:1em;
+	background: #1b5fa0;
+}
+
+div.boxes {
 	margin: 1em;
 	padding: 1em;
 	background:#f0f1af;
 	display:inline-block; vertical-align: top;
 	width:19em;
 	height:10em;
-
 }
 
 
 p {
 	line-height: 1.5em;
 }
-
 
 ul {
 	list-style: none;
@@ -75,6 +80,3 @@ a {
 	text-decoration: none;
 }
 
-footer {
-	padding: 1em;
-}
