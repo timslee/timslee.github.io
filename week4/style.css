@@ -54,7 +54,7 @@ div#about, footer {
 	display:block;
 	margin:1em;
 	padding:1em;
-	background: #1b5fa0;
+	background: rgba(27,95,160,0.4);
 }
 
 div.boxes {
