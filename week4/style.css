@@ -42,6 +42,7 @@ hr {
 	width:10em;
 }
 
+
 img {
 	padding-top: 1em;
 	border-radius: 50%;
@@ -59,14 +60,21 @@ div#about, footer {
 }
 
 div.boxes {
+	float:left;
 	margin: 1em;
 	padding: 1em;
 	background:#f0f1af;
-	display:inline-block; vertical-align: top;
-	width:19em;
+	width:22%;
 	height:10em;
 }
 
+.clearfix { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
 
 p {
 	line-height: 1.5em;
