@@ -52,12 +52,14 @@ p#slogan {
 	font-style: italic;
 }
 
-div#about, footer {
+div#about {
 	display:block;
 	margin:1em;
 	padding:1em;
 	background: rgba(27,95,160,0.4);
 }
+
+
 
 div.boxes {
 	float:left;
@@ -68,12 +70,12 @@ div.boxes {
 	height:10em;
 }
 
-.clearfix { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
+footer {
+	clear:both;
+	display:block;
+	margin:1em;
+	padding:1em;
+	background:rgba(27,95,160,0.4);
 }
 
 p {
@@ -89,3 +91,11 @@ a {
 	text-decoration: none;
 }
 
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
