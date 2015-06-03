@@ -3,7 +3,7 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 
 body {
-	background-color: #fef8f1;	
+	background-color:#fef8f1;	
 	font-size:16px;
 	font-family: 'Lora', serif;
 }
@@ -59,15 +59,20 @@ section#about {
 	background: rgba(27,95,160,0.4);
 }
 
-
-
-.boxes {
+.oneBox, .twoBoxes, .threeBoxes {
 	float:left;
-	margin: 1em;
-	padding: 1em;
-	background:#f0f1af;
-	width:22%;
-	height:11%;
+	margin:.5%;
+	background-repeat:no-repeat;
+}
+
+div#hulk {
+	background:url("images/hulk.jpg");
+	background-repeat:no-repeat;
+}
+
+div#broo {
+	background:url("images/broo.jpg");
+	background-repeat:no-repeat;
 }
 
 footer {
@@ -91,17 +96,16 @@ a {
 	text-decoration: none;
 }
 
-.oneBox, .twoBoxes, .threeBoxes {
-	float:left;
-	margin:.5%;
-}
-.oneBox {
-	width:33.33%;
+
+
+.threeBoxes {
+	width:30%;
+	height:12em;
 }
 .twoBoxes {
 	width:66.66%;
 }
-.threeBoxes {
+.oneBox {
 	width:100%;
 }
 
